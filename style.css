@@ -1,0 +1,95 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 54px;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-conteudo{
+    width: 935px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-icones{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.navbar-pesquisar{
+    text-align: center;
+}
+
+.separador-horizontal{
+    background-color: blue;
+    height: 1px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0 auto;
+
+}
+
+
+.caixa-stories{
+    background-color: green;
+    width: 614px;
+    height: 600px;
+
+}
+
+.coluna-de-posts{
+    background-color: orange;
+    width: 614px;
+    height: 600px;
+}
+
+.separador-vertical{
+    background-color: blue;
+    height: 600px;
+    width: 21px;
+}
+
+.separador-logo{
+    background-color: blue;
+    height: 50px;
+    width: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sidebar{
+    background-color: red;
+    width: 293px;
+    height: 600px;
+
+    
+    
+
+}
+
+ion-icon {
+	font-size: 20px;
+}
+
+.topo-esquerdo{
+    display: flex;
+    
+}
+
+.topo-esquerdo img {
+    width: 103px;
+    height: 29px;
+}
