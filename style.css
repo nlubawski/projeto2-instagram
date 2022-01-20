@@ -9,6 +9,9 @@ body{
     border-bottom: 1px solid #dbdbdb;
     display: flex;
     justify-content: center;
+    position: fixed;
+    top: 0;
+
 }
 
 .navbar-conteudo{
@@ -27,6 +30,37 @@ body{
 
 .navbar-pesquisar{
     text-align: center;
+ 
+}
+
+.container{
+    width: 100%;
+    height: calc(100vh - 54px);
+    margin-top: 54px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+.container-conteudo{
+    width: 935px;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    gap: calc(935px - 614px - 293px);
+
+}
+
+.container-conteudo-timeline{
+    width: 614px;
+    background-color: yellow;
+    height: 749px;
+}
+
+.container-conteudo-sidebar{
+    width: 293px;
+    background-color: orange;
+    height: 500px;
 }
 
 .separador-horizontal{
