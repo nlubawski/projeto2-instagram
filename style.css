@@ -2,6 +2,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+/*---------------------------------Barra Topo---------------------------------*/
 .navbar{
     width: 100%;
     height: 54px;
@@ -22,16 +24,53 @@ body{
     justify-content: space-between;
 }
 
+.navbar-conteudo-esquerda{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.separador-logo{
+    background-color: #dbdbdb;
+    height: 29px;
+    width: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.icone-instagram{
+    font-size: 22px;
+    
+}
+
+.cor-do-link{
+    color: #000000;
+}
+
+.logo-instagram{
+    width: 103px;
+    height: 29px;
+
+}
+
 .navbar-icones{
     display: flex;
-    gap: 6px;
+    gap: 22px;
     align-items: center;
+}
+
+.icones-navbar-direita{
+    font-size: 22x;
 }
 
 .navbar-pesquisar{
     text-align: center;
- 
 }
+
+
+
+/* ------------------------------- Conteudo de postagens -------------------------*/ 
+
 
 .container{
     width: 100%;
@@ -56,7 +95,7 @@ body{
     height: 749px;
 }
 
-.timeline-topo{
+.caixa-de-stories{
     width: 100%;
     height: 118px;
     border: 1px solid #dbdbdb;
@@ -66,10 +105,11 @@ body{
     justify-content: start;
     gap: 15px;
     overflow-x: hidden;
+    margin-top: calc(88px - 54px);
 
 }
 
-.timeline-topo img{
+.caixa-de-stories img{
     height: 56px;
     width: 56px;
     border: 3px solid rgb(255, 60, 93);
@@ -259,13 +299,7 @@ body{
     width: 21px;
 }
 
-.separador-logo{
-    background-color: blue;
-    height: 50px;
-    width: 1px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
+
 
 .sidebar{
     background-color: red;
