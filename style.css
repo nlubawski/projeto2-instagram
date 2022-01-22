@@ -53,6 +53,10 @@ body{
 
 }
 
+.normal-sumir{
+    display: none;
+}
+
 .navbar-icones{
     display: flex;
     gap: 22px;
@@ -71,19 +75,16 @@ body{
 
 /* ------------------------------- Conteudo de postagens -------------------------*/ 
 
-
 .container{
     width: 100%;
     height: calc(100vh - 54px);
     margin-top: 54px;
-    background-color: lightblue;
     display: flex;
     justify-content: center;
 }
 
 .container-conteudo{
     width: 935px;
-    background-color: white;
     height: 100vh;
     display: flex;
     gap: calc(935px - 614px - 293px);
@@ -96,23 +97,23 @@ body{
 }
 
 .caixa-de-stories{
-    width: 100%;
+    width: 614px;
     height: 118px;
     border: 1px solid #dbdbdb;
-    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 15px;
+    gap: 10px;
     overflow-x: hidden;
     margin-top: calc(88px - 54px);
-
+    margin-bottom: 24px;
+    
 }
 
 .caixa-de-stories img{
-    height: 56px;
-    width: 56px;
-    border: 3px solid rgb(255, 60, 93);
+    height: 62px;
+    width: 62px;
+    border: 2px solid rgb(255, 60, 93);
     border-radius: 50%;
     margin-left: 6px;
 }
@@ -131,7 +132,6 @@ body{
     display: flex;
     flex-direction: column;
     gap: 24px;
-    margin-top: 24px;
 }
 
 .post{
@@ -141,6 +141,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: stretch;
+    margin-bottom: 60px;
 
 }
 
@@ -205,10 +206,14 @@ body{
     
 }
 
+
+/*----------------------------------Sidebar-----------------------------------------*/
+
 .container-conteudo-sidebar{
     display: flex;
     flex-direction: column;
     gap: 12px;
+    margin-top: calc(88px - 54px);
 }
 
 .sidebar-topo{
@@ -217,12 +222,24 @@ body{
     gap: 8px;
 }
 
-.sidebar-topo-conteudo{
-   
-
+.sidebar-topo img{
+        height: 62px;
+        width: 62px;
+        border: 2px solid rgb(255, 60, 93);
+        border-radius: 50%;
 }
 
-.sidebar-sugestoes{
+.sidebar-topo-conteudo{
+    
+}
+
+.separador-horizontal{
+    background-color: lightblue;
+    height: 9px;
+    width: 293px;
+}
+
+.sidebar-sugestoes-ver-tudo{
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -267,60 +284,72 @@ body{
     margin-left: 15px;
 
 }
-.separador-horizontal{
-    background-color: blue;
-    height: 1px;
-}
-
-.conteudo{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-
-}
-
-
-.caixa-stories{
-    background-color: green;
-    width: 614px;
-    height: 600px;
-
-}
-
-.coluna-de-posts{
-    background-color: orange;
-    width: 614px;
-    height: 600px;
-}
-
-.separador-vertical{
-    background-color: blue;
-    height: 600px;
-    width: 21px;
-}
 
 
 
-.sidebar{
-    background-color: red;
-    width: 293px;
-    height: 600px;
-
-    
-    
-
-}
 
 ion-icon {
 	font-size: 20px;
 }
 
-.topo-esquerdo{
+/*--------------------VERSAO DESKTOP SEM SIDEBAR ------------------------------------------*/
+
+
+@media (max-width: 935px){
+
+    .container-conteudo-sidebar{
+        display: none;
+    }
+    .container-conteudo{
+        width: 100%;
+        background-color: white;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        gap: calc(935px - 614px - 293px);
+    }
+}
+
+/*--------------------VERSAO MOBILE ------------------------------------------*/
+
+@media (max-width: 614px){
+    .mobile-sumir{
+        display: none;
+    }
+
+    .normal-sumir{
+        display: flex;
+    }
+
+
+/*------------barra fixa chao ---------------*/
+.navbar-mobile{
+    width: 100%;
+    height: 54px;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
     display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+
+}
+
+.navbar-conteudo-mobile{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icone-mobile{
+    font-size: 22px;
     
 }
 
-.topo-esquerdo img {
-    width: 103px;
-    height: 29px;
+.pai{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 }
