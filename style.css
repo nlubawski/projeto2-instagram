@@ -326,30 +326,24 @@ ion-icon {
 .navbar-mobile{
     width: 100%;
     height: 54px;
-    background-color: white;
-    border-bottom: 1px solid #dbdbdb;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-
-}
-
-.navbar-conteudo-mobile{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 .icone-mobile{
     font-size: 22px;
-    
 }
 
-.pai{
+.barra-mobile{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    color: none;
+    background-color: white;
+    border-top: solid 1px #DBDBDB;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-around;
+  
 }
 
 }
