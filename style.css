@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 12px;
 }
 
 
@@ -167,6 +168,11 @@ body{
         margin-left: 6px;
     }
 
+.texto-destacado{
+    font-size: 14px;
+    font-weight: bolder ;
+}
+
 .post-img{
     width: 612px;
     height: 612px;
@@ -234,7 +240,7 @@ body{
 }
 
 .separador-horizontal{
-    background-color: lightblue;
+    background-color: #FAFAFA;
     height: 9px;
     width: 293px;
 }
@@ -286,7 +292,28 @@ body{
 
 }
 
+.texto-sidebar-fraco{
+    color: #8E8E8E;
+}
 
+.texto-sidebar-forte{
+    color: #8E8E8E;
+    font-weight: bolder;
+}
+
+.texto-ver-tudo{
+    color: #262626;
+    font-weight: bolder;
+}
+
+.sidebar-rodape{
+    padding: 14px;
+}
+.sidebar-rodape-texto{
+    color: #C7C7C7;
+    font-size: 11px;
+    
+}
 
 
 ion-icon {
@@ -337,7 +364,7 @@ ion-icon {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 44px;
+    height: 54px;
     color: none;
     background-color: white;
     border-top: solid 1px #DBDBDB;
