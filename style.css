@@ -64,7 +64,7 @@ body{
 }
 
 .icones-navbar-direita{
-    font-size: 22px;
+    font-size: 22x;
 }
 
 .navbar-pesquisar{
@@ -107,8 +107,6 @@ body{
     overflow-x: hidden;
     margin-top: calc(88px - 54px);
     margin-bottom: 24px;
-    position: relative;
-    z-index: -1;
     
 }
 
@@ -118,19 +116,6 @@ body{
     border: 2px solid rgb(255, 60, 93);
     border-radius: 50%;
     margin-left: 6px;
-}
-
-.botao-stories{
-    position: absolute;
-    right: 0;
-
-}
-
-.icone-stories{
-    font-size: 32px;
-    color: white;
-    background-color: gray;
-    border-radius: 100%;
 }
 
 .item-storie{
@@ -229,11 +214,7 @@ body{
     flex-direction: column;
     gap: 12px;
     margin-top: calc(88px - 54px);
-    width: 293px;
-    position: fixed;
-    right: calc(50vw - 935px/2 - 8px);
 }
-
 
 .sidebar-topo{
     display: flex;
@@ -363,7 +344,6 @@ ion-icon {
     display: flex;
     align-items: center;
     justify-content: space-around;
-  
 }
 
 }
