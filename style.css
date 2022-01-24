@@ -14,6 +14,7 @@ body{
     justify-content: center;
     position: fixed;
     top: 0;
+    z-index: 1;
 
 }
 
@@ -87,6 +88,7 @@ body{
     height: 100vh;
     display: flex;
     gap: calc(935px - 614px - 293px);
+    position: relative;
 
 }
 
@@ -228,6 +230,8 @@ body{
     flex-direction: column;
     gap: 12px;
     margin-top: calc(88px - 54px);
+    position: fixed;
+    right: calc(50vw - 935px/2 - 8px);
 }
 
 .sidebar-topo{
