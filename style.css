@@ -72,8 +72,6 @@ body{
     text-align: center;
 }
 
-
-
 /* ------------------------------- Conteudo de postagens -------------------------*/ 
 
 .container{
@@ -350,27 +348,85 @@ ion-icon {
     }
 
 
-/*------------barra fixa chao ---------------*/
-.navbar-mobile{
-    width: 100%;
-    height: 54px;
-}
-.icone-mobile{
-    font-size: 22px;
-}
+    /*------------barra fixa chao ---------------*/
+    .navbar-mobile{
+        width: 100%;
+        height: 54px;
+    }
+    .icone-mobile{
+        font-size: 22px;
+    }
 
-.barra-mobile{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 54px;
-    color: none;
-    background-color: white;
-    border-top: solid 1px #DBDBDB;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
+    .barra-mobile{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 54px;
+        color: none;
+        background-color: white;
+        border-top: solid 1px #DBDBDB;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
 
+    .conteudo-conteudo{
+        width: 100%;
+
+    }   
+    .container{
+        width: 100%;
+        height: calc(100vh - 54px);
+        margin-top: 54px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container-conteudo{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .container-conteudo-timeline{
+        width: 100%;
+    }
+    
+    .caixa-de-stories{
+        width: 100%;
+    }
+    
+    .caixa-de-stories img{
+        height: 62px;
+        width: 62px;
+    }
+    
+    .post{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .post-topo{
+        display: flex;
+        justify-content: space-between;
+        padding: 8px;
+        align-items: center;
+    }
+    
+    .post-topo-esquerda{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .post-topo-esquerda img{
+            height: 32px;
+            width: 32px;
+            border: 3px solid rgb(255, 60, 93);
+            border-radius: 50%;
+            margin-left: 6px;
+        }
+    .post-img{
+        width: 100%;
+        height: 100%;
+    }
 }
