@@ -357,6 +357,12 @@ ion-icon {
         font-size: 22px;
     }
 
+    .navbar-conteudo{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
     .barra-mobile{
         position: fixed;
         bottom: 0;
@@ -368,7 +374,8 @@ ion-icon {
         border-top: solid 1px #DBDBDB;
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-arround;
+        
     }
 
     .conteudo-conteudo{
